@@ -32,7 +32,6 @@ Below is displayed the testing results with and without cache activated for the 
 **_With cache the same server can process 2000 pages per second, without cache only 1._**
 
 ### With cache activated:
-> ab -n 500 -c 5 [http://www.alluringworld.com/](http://www.alluringworld.com/)
 
 * Benchmarking [www.alluringworld.com](http://www.alluringworld.com/)
 * Finished 500 requests
@@ -50,7 +49,6 @@ Below is displayed the testing results with and without cache activated for the 
 * Transfer rate:          61189.45 Kbytes/sec received
 
 ### Without cache:
-> ab -n 500 -c 5 [http://www.alluringworld.com/](http://www.alluringworld.com/)
 
 * Benchmarking [www.alluringworld.com](http://www.alluringworld.com/)
 * Finished 500 requests
@@ -65,4 +63,4 @@ Below is displayed the testing results with and without cache activated for the 
 * **Requests per second:    0.52 per sec**
 * **Time per request:       9614.203 ms**
 * Time per request:       1922.841 ms
-* Transfer rate:          14.72 Kbytes/sec received
+* Transfer rate:          14.72 Kbytes/sec received 
