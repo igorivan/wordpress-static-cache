@@ -5,6 +5,7 @@ This is extremely simple and efficient way to implement cache on your wordpress 
 ## Simple installation
 
 You need to have writing privileges to your filesystem in order to implement this. 
+
 1. Simple open the root folder of your wordpress site and locate the following file:
 wp-blog-header.php
 
